@@ -65,8 +65,7 @@ def count_words(text):
     return count
 
 def count_sentences(text):
-    # sentences=re.split(r'[.!?]', text)
-    # print(sentences)
+
     return text.count('.')+text.count('?')+text.count('!')-text.count('?!')-text.count('!!')-text.count('??')-text.count('..')-text.count('...')
 
 

@@ -6,10 +6,7 @@ def check_phone_number(string):
     if len(string)!=10:
         return False
 
-    # numbers=[0, 1, 2, 3, 4, 5, 6, 7, 9]
-    # for c in string:
-    #     if int(c) not in numbers:
-    #         return False
+
 
     if any(c not in '0 1 2 3 4 5 6 7 8 9' for c in string):
         return False

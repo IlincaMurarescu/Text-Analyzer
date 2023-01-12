@@ -47,12 +47,5 @@ if __name__ == '__main__':
 
 
 
-    # with open('fisier.txt', 'r') as file:
-    #     text=file.read()
-    # print(Counters.count_words(text))
-    # print(Counters.count_sentences(text))
-    # print(Counters.count_phone_numbers(text))
-    # print(Counters.count_CNPs(text))
-    # print(Counters.count_letters(text))
 
 
